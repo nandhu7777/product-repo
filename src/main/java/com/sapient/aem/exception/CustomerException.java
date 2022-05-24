@@ -1,0 +1,20 @@
+package com.sapient.aem.exception;
+
+public class CustomerException extends Exception{	
+	private static final long serialVersionUID = 1L;
+
+
+		public CustomerException() {
+			super("Customer Exception ");
+		}
+		
+		public CustomerException(String message) {
+			super(message);
+		}
+		
+		
+		public CustomerException (String message, Throwable t) {
+			super(message,t);
+		}
+		
+}
